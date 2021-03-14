@@ -10,5 +10,11 @@ Selenium（Ruby）でWebスクレイピング後、結果をIFTTTのWebhookに�
 ・実行⇨LINEで通知メッセージを送信
 
 (2) credentials.json を作成
-
-
+```
+{
+    "user_id": "<自身のLOOOPでんきの登録EMAILアドレス>",
+    "password": "<LOOOPでんきのログインパスワード>",
+    "webhook_url": "<IFTTTのWebHook用リクエストURL>"
+}
+```
+(3) `ruby electricity_amount_get.rb` を実行
