@@ -17,4 +17,5 @@ Selenium（Ruby）でWebスクレイピング後、結果をIFTTTのWebhookに�
     "webhook_url": "<IFTTTのWebHook用リクエストURL>"
 }
 ```
-(3) `ruby electricity_amount_get.rb` を実行
+(3) `touch data.json` を実行
+(4) `ruby electricity_amount_get.rb` を実行
