@@ -81,6 +81,8 @@ begin
   select_year = Selenium::WebDriver::Support::Select.new(driver.find_element(id: "target-date-year"))
   select_place.select_by(:index, 0)
   select_year.select_by(:index, 1)
+  show_button = wait.until { driver.find_element(id: "target-invoice") }
+  show_button.click
 
   # ==== GET AMOUNT
   result = []
